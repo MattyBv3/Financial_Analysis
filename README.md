@@ -2,6 +2,7 @@
 Python scripts for financial analysis, stocks, options, etc. 
 
 # stock_prices_test.py
+**Overview:**
 - Based on sentdex's video tutorial: 
 - https://pythonprogramming.net/getting-stock-prices-python-programming-for-finance/
 - Pull historical price data for particular stock ticker
@@ -11,5 +12,5 @@ Python scripts for financial analysis, stocks, options, etc.
 **Additions:**
 - Prompt user to input stock ticker (rather than hard coded)
 
-**Issues**
+**Issues:**
 - pandas_datareader package pulling from 'morningstar' resulting in 404 as of 7/31/2018 (worked on 7/27/2018)
